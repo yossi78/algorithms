@@ -5,7 +5,6 @@ import java.util.*;
 public class SetExample {
 
 
-
     public static void SetExample() {
         Set<Integer> set = new HashSet<>();
         set.add(1);
@@ -33,10 +32,6 @@ public class SetExample {
         }
         System.out.println();
     }
-
-
-
-
 
 
 

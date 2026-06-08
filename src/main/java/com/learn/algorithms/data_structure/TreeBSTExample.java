@@ -5,7 +5,6 @@ import java.util.*;
 public class TreeBSTExample {
 
 
-
     public static void TreeBSTExample() {
         // TreeSet (sorted, no duplicates)
         TreeSet<Integer> treeSet = new TreeSet<>();
@@ -37,10 +36,6 @@ public class TreeBSTExample {
         System.out.println("TreeMap (sorted by keys): " + treeMap);
 
 
-
-
-
-
         // Iterate
         for (Map.Entry<Integer, String> entry : treeMap.entrySet()) {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
@@ -57,14 +52,9 @@ public class TreeBSTExample {
 
 
 
-
-
-
     public static void main(String[] args) {
         System.out.println("===== Tree (BST) Example =====");
         TreeBSTExample();
-
-
     }
 }
 

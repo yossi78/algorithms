@@ -5,8 +5,6 @@ import java.util.*;
 public class DequeExample {
 
 
-
-
     public static void DequeExample() {
         Deque<Integer> deque = new ArrayDeque<>();
 

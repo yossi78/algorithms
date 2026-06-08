@@ -25,8 +25,6 @@ public class PriorityQueueHeapExample {
         }
 
 
-
-
         // Max Heap (reverse order)
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
         maxHeap.add(5);
@@ -34,8 +32,6 @@ public class PriorityQueueHeapExample {
         maxHeap.add(3);
         System.out.println("Max Heap peek: " + maxHeap.peek());
     }
-
-
 
 
 

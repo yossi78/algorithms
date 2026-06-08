@@ -5,7 +5,6 @@ import java.util.*;
 public class GraphBFSExample {
 
 
-
     public static void GraphBFSExample() {
         Map<Integer, List<Integer>> graph = new HashMap<>();
         graph.put(1, Arrays.asList(2, 3));

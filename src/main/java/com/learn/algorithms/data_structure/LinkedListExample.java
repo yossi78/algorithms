@@ -5,9 +5,6 @@ import java.util.*;
 public class LinkedListExample {
 
 
-
-
-
     public static void LinkedListExample() {
         LinkedList<String> list = new LinkedList<>();
         list.add("Apple");
@@ -37,8 +34,6 @@ public class LinkedListExample {
             System.out.println("List contains: " + searchValue);
         }
     }
-
-
 
 
 
