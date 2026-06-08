@@ -4,7 +4,7 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-// rate limit
+
 public class RateLimit {
     private final ConcurrentHashMap<String, Queue<Instant>> userRequestsMap;
     private final int maxSizeOfRequests;
