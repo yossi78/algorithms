@@ -32,6 +32,7 @@ public class PriorityBlockingQueueExample {
             Integer element = pbq.take();
             System.out.println("Processed: " + element);
         }
+
     }
 
     public static void main(String[] args) {
